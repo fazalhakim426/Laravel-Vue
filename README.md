@@ -27,10 +27,10 @@ Here is the link to their documentation.
 - **[Step 3]**
     Add id='app' to your blade vue where you want to render vue.js app.
     no in in app.js file add the following code.
-    ```import {createApp} from 'vue' a  
-       createApp({ a  
-       components: {} a  
-       }).mount('#app');```
+    ```import {createApp} from 'vue' a  ```
+    ```createApp({ a  ```
+    ```components: {} a  ```
+     ```}).mount('#app');```
 - **[Step 4]** 
 
 ## License
