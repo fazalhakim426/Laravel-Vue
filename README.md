@@ -23,23 +23,24 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Installing Vue.js
 - **[Step 1]**
-    ##   npm insatll vue@next vue-router@next vue-loader@next
+    ```npm insatll vue@next vue-router@next vue-loader@next```
     or you can run at separatly.
-    ##    npm install vue@next  
-        in webpacke.mix.js change the 
-        mix.js('resources/js/app.js', 'public/js')
-        to 
-        mix.js('resources/js/app.js', 'public/js').vue().
-    ##    npm install vue-router@next  
-    ##    npm install vue-loader@next
+    ##    npm install vue@next   
+    ```npm install vue-router@next```  
+    ``` npm install vue-loader@next```
 - **[Step 2]**
-    Add id='app' to your blade vue where you want to render vue.js app.
+        in webpacke.mix.js change the 
+    ```mix.js('resources/js/app.js', 'public/js')```
+    to 
+    ```mix.js('resources/js/app.js', 'public/js').vue().```
+        
 - **[Step 3]**
+    Add id='app' to your blade vue where you want to render vue.js app.
     no in in app.js file add the following code.
-    ## import {createApp} from 'vue';
-    ## createApp({
-    ## components: {}
-    ## });
+    ```import {createApp} from 'vue';
+     createApp({
+     components: {}
+     });```
 - **[Step 4]**
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
