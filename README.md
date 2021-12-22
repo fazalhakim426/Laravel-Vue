@@ -37,10 +37,10 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - **[Step 3]**
     Add id='app' to your blade vue where you want to render vue.js app.
     no in in app.js file add the following code.
-    ```import {createApp} from 'vue';
-     createApp({
-     components: {}
-     });```
+    ```import {createApp} from 'vue'```
+    ```createApp({```
+    ```components: {}```
+    ```});```
 - **[Step 4]**
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
