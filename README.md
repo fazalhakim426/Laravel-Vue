@@ -36,15 +36,15 @@ Here is the link to their documentation.
 ## Router in Vue
 
 - **[vue app directory structure]** <br/> 
-. 
+
  * [resources](./resources)
    * [js](./resources/js)
      * [components](./components)
-        * [components](./components)
+        * [companies](./components)
            * [CompaniesIndex.vue](./resources/js/components/companies/ComponiesIndex.vue)
      * [router](./resources/js/router)
         * [index.js](./resources/js/router/index.js)
-     * [app.js](./dir1/file12.ext) 
+     * [app.js](./app.js) 
 
 
 - **[Step 1]**
