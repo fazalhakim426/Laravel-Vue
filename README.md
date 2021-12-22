@@ -35,31 +35,16 @@ Here is the link to their documentation.
 ``` 
 ## Router in Vue
 
-- **[vue app directory structure]** <br/>
----resources <br/>
------js <br/>
-------components <br/>
----------companies <br/>
-------------CompaniesIndex <br/>
-------router <br/>
----------index.js <br/>
------app.js <br/>
-
-$ ./tree-md .
-# Project tree
-
+- **[vue app directory structure]** <br/> 
 .
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
+ * [resources](./resources)
+ * [resources](./resources)
+   * [js](./resources/js)
+     * [components](./resources/js/components)
+       * [CompaniesIndex.vue](../resources/js/components/ComponiesIndex.vue)
+     * [router](./resources/js/router)
+        * [index.js](./resources/js/router/index.js)
+     * [app.js](./dir1/file12.ext) 
 
 
 - **[Step 1]**
