@@ -23,8 +23,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Installing Vue.js
 - **[Step 1]**
-    npm run vue@next vue-router@next vue-loader@next
-or you can run at separatly.
+    ##   npm run vue@next vue-router@next vue-loader@next
+    or you can run at separatly.
     ##    npm run vue@next  
     ##    npm run vue-router@next  
     ##    npm run vue-loader@next
