@@ -23,8 +23,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Installing Vue.js
 - **[Step 1]**
+    npm run vue@next vue-router@next vue-loader@next
+or you can run at separatly.
+    npm run vue@next  
+    npm run vue-router@next  
+    npm run vue-loader@next
 - **[Step 2]**
 - **[Step 3]**
+    
  
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
