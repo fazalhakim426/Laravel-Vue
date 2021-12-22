@@ -27,13 +27,37 @@ Here is the link to their documentation.
 - **[Step 3]**
     Add id='app' to your blade vue where you want to render vue.js app.
     no in in app.js file add the following code.
-    ```
+```
     import {createApp} from 'vue' 
     createApp({  
     components: {}
     }).mount('#app');
-    ```
-- **[Step 4]** 
+``` 
+## Router in Vue
+
+- **[vue app directory structure]**
+---resources <br/>
+-----js <br/>
+------components <br/>
+------companies <br/>
+---------CompaniesIndex <br/>
+------router <br/>
+---------index.js <br/>
+-----app.js <br/>
+
+
+- **[Step 1]**
+`In This section we will set router.
+in ```layout/app.blade.php``` add  ```id="app"``` to render vue.js.
+```
+        <div  id="app"> 
+          <router-view/>   
+        </div>
+``` 
+
+- **[Step 2]**
+- **[Step 3]**
+- **[Step 4]**
 
 ## License
 
